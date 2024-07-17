@@ -1,0 +1,43 @@
+body {
+    margin: 0;
+    height: 95vh;
+    background-color: #ff8c00; 
+    font-family: 'Times New Roman';
+    text-align: center; 
+}
+header {
+    background-color: #ff0000; 
+    color: #fff;
+    padding: 10px;
+}
+.tictactoe {
+    background-color: #ffff00; 
+    padding: 25px;
+    margin: auto; 
+    margin-top: 25px; 
+}
+#stage {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 15px;
+    padding: 15px;
+}
+.space {
+    height: 95px;
+    background-color: #FFFFFF; 
+    font-size: 4em;
+    cursor: pointer;
+}
+.score, footer {
+    background-color: #ff0000; 
+    color: #fff;
+    padding: 15px;
+    margin-top: 15px;
+}
+#replayGame {
+    padding: 15px 15px;
+    background-color: #4CAF50; 
+    color: white;
+    border: none;
+    cursor: pointer;
+}
